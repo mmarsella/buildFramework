@@ -1,3 +1,6 @@
 var x = G$('Mark','M');
 
-console.log(x);
+x.greet().setLang('es').greet(true);
+
+
+x.insertGreet('h1#greeting')
